@@ -1,0 +1,24 @@
+Rezolvarea partii compulsory din laboratorul 5
+
+Tema contine 6 fisiere: Main.java, Catalog.java, Document.java, CatalogManager.java, DocumentManager.java
+si NullObject.
+
+In Document.java se creeaza obiectul Document ce are un ID, un path si taguri corespunzatoare, 
+sunt implementati seters si geters pentru parametrii.
+In Catalog.java se creeaza obiectul Catalog ce este o lista de documente, List de obiecte Document,
+sunt implementate functiile de getDocuments, care returneaza documentele din catalog si
+addDocuments, care adauga documente la catalog.
+
+In Document.java se creeaza obiectul Document ce are un ID, un path si taguri corespunzatoare, 
+sunt implementati seters si geters pentru parametrii.
+In Catalog.java se creeaza obiectul Catalog ce este o lista de documente, List de obiecte Document,
+sunt implementate functiile de getDocuments, care returneaza documentele din catalog si
+addDocuments, care adauga documente la catalog.
+
+In DocumentManager.java se face legatura cu clasa Desktop, deschizandu-se un document cu aplicatia nativa de SO,
+este implementata clasa view care deschide documentul aflat la pathul dat.
+In CatalogManager.java sunt implementate functiile load care incarca documentul dintr-un fisier extern
+si save care salveaza documentul intr-un fisier extern.
+
+In Main.java se creeaza un document si se verifica erorile de input output, apoi se creeaza un catalog si sunt verificate
+erorile de input output, se verifica daca e nullobject.
