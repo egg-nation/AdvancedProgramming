@@ -25,11 +25,11 @@ public class Document implements Serializable
         this.tags = tags;
     }
 
-    public long getUniqueID() {
+    public long getID() {
         return ID;
     }
 
-    public void setUniqueID(long ID) {
+    public void setID(long ID) {
         this.ID = ID;
     }
 
