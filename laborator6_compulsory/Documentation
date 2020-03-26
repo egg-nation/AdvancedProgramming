@@ -1,0 +1,7 @@
+Am folosit Swing
+MainFrame.java: creez main frameul aplicatiei, care va avea control panelul, configuration panelul si canvasul pe care se va desena.
+ConfigPanel.java: in panelul de configurare am optiunile de customizare a shapeului poligonului: ce culoare sa aiba (random, red, blue sau green)
+si cate varfuri, este asezat in partea de sus asa cum se cere
+DrawingPanel.java: canvasul in care voi putea desena poligonul
+NodeShape.java, RegularPolygon.java: shapeul ales
+ControlPanel.java: in partea de jos a frameului este adaugat control panelul care are butonele cerute, load, save, reset si exit.
