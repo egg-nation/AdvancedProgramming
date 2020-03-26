@@ -23,6 +23,7 @@ public class DrawingPanel extends javax.swing.JPanel {
     public DrawingPanel (MainFrame frame){
         this.frame = frame;
         initializeWindow();
+        createOffscreenImage();
     }
 
     private void initializeWindow() {
