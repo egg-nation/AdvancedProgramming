@@ -1,0 +1,12 @@
+Laborator 8 - Partea Compulsory
+
+Tema contine fisierele:
+- Main.java: se testeaza functionalitatea 
+- Database.java: implementarea conexiunii la baza de date: user dba, password sql123, la jdbc:mysql://localhost:3306/musicalbums
+- interfetele AlbumDAOPattern.java si ArtistDAOPattern.java
+- AlbumController.java: constructor, functia create, care adauga in baza de date un album luand numele, id ul artistului si anul lansarii,
+functia findByArtist care cauta in baza de date artistul cu id dat
+- ArtistController.java: constructor, functia create, care adauga in baza de date un artist, luand numele si tara,
+functia findByName care cauta in baza de date artistul cu un nume dat
+- Album.java: constructor(id, artist_id, release_year si name), getteri si setteri
+- Artist.java: constructor(id, name, country), getteri si setteri
