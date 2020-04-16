@@ -1,0 +1,13 @@
+Laborator 9 - Partea Compulsory (rename laborator9_compulsory jpa_eclipselink)
+
+Tema contine fisierele:
+- persistence.xml
+- PersistenceUtil.jva in util: constructor PersistenceUtil unde creez EMF jpa_eclipselink,
+crearea cu createEntityManager si returnarea obiectului EntityManagerFactory cu functia getEMFactory
+- AlbumManager.java in app: se testeaza functionalitatea 
+- Album.java in model: constructor(id, artist_id, release_year si name), getteri si setteri + generare clase tabel baza de date
+- Artist.java in model: constructor(id, name, country), getteri si setteri + generare clase tabel baza de date
+- AlbumRepository.java in repo: functia create, care adauga in baza de date un album, functia findById, 
+care cauta in baza de date albumul cu un idul dat, si findByName, care cauta in baza de date albumul cu un nume dat
+- ArtistRepository.java in repo: functia create, care adauga in baza de date un artist, functia findById, 
+care cauta in baza de date artistul cu un idul dat, si findByName, care cauta in baza de date artistul cu un nume dat
