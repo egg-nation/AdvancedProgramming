@@ -3,7 +3,7 @@ Laborator 10 - Partea Compulsory, Optional si Bonus
 Tema contine 2 foldere: client si server, clientul trimitand comenzi serverului, 
                         iar serverul facand partea de joc si de interactiune intre playeri
 Tema contine fisierele:
-Pentru optional si compulsory sunt imbinate, pentru partea de bonus implementarea interfetei se poate observa in poza final.png
+Pentru optional si compulsory sunt imbinate, pentru partea de bonus implementarea interfetei se poate observa in poza joc.png
 
 Client
 COMPULSORY:
