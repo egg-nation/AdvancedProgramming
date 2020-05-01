@@ -1,0 +1,35 @@
+Laborator 10 - Partea Compulsory, Optional si Bonus
+
+Tema contine 2 foldere: client si server, clientul trimitand comenzi serverului, 
+                        iar serverul facand partea de joc si de interactiune intre playeri
+Tema contine fisierele:
+Pentru optional si compulsory sunt imbinate, pentru partea de bonus implementarea interfetei se poate observa in poza final.png
+
+Client
+COMPULSORY:
+- GameClient.java: comunicare cu serverul prin socket pentru comenzile date
+- Socket.java: threadul pentru joc, porneste un client
+BONUS:
+- GomokuApp.java: crearea interfetei grafice pentru fiecare jucator, functii de creare Board, setare Board, start, miscari in fct 
+  de coordonate si castigator (getteri, setteri + functii separate)
+- RMIClient.java
+- RMIConcrete.java
+- RMIInterface.java
+- Tile.java: piesa - pozitii
+
+Server:
+COMPULSORY:
+- ClientThread.java: comunicarea cu jucatorul
+- GameServer.java: serverul - ia clienti si creaza threaduri pentru fiecare in parte
+- Main.java: Pornire joc
+OPTIONAL:
+- Board.java: structura board (getteri, setteri, initializare)
+- Game.java: joc - miscari, alegere castigator + raport html
+- HtmlReport.java: - generare raport html
+- Player.java: se ia numarul jucatorului corent din cei 2 jucatori existenti
+- ScpCommand.java: bash
+- Tile.java: piesa - pozitii
+BONUS:
+- RMIServer.java
+- RMIConcrete.java
+- RMIInterface.java
